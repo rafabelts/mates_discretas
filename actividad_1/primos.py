@@ -16,9 +16,8 @@ def imprimir_primos(n):
 while True:
     try:
         num = int(input("Da un número: "))
-        imprimir_primos(num)
         primo = es_num_primo(num)
-
+        imprimir_primos(num)
         if primo:
             print(f"{num} es primo")
         else:
