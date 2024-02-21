@@ -5,9 +5,8 @@
     
     En computación se utiliza en la teoría de la información para calcular la cantidad de información que se puede almacenar en un sistema.
     
-    En cada fila del triángulo de pascal encontramos coeficientes binomiales, que son utilizados para expandir binomios elevados a una potencia, y estos son representados en el triangulo 
+    En cada fila del triángulo de pascal encontramos coeficientes binomiales, que son utilizados para expandir binomios elevados a una potencia, y son representados en el triangulo 
 '''
-
 
 def factorial(n):
     if n <= 1:
@@ -28,8 +27,8 @@ def triangulo_pascal(n):
 
 
 try:
-    no_pisos = int(input("Ingrese el numero de piso que quiere ver: "))
+    num_de_pisos = int(input("Ingrese el numero de piso que quiere ver: "))
     print("Su triángulo de pascal:\n")
-    triangulo_pascal(no_pisos)
+    triangulo_pascal(num_de_pisos)
 except Exception:
     print("Error, ingresa un número entero")
